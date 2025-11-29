@@ -1,0 +1,314 @@
+{
+  "hackathons": {
+    "1": {
+      "id": "1",
+      "name": "Monad Blitz Bangkok",
+      "description": "Build the future of blockchain in Bangkok. Join developers across Southeast Asia to create innovative dApps on Monad with lightning-fast performance.",
+      "tagline": "Building the future in Bangkok",
+      "status": "active",
+      "startDate": "2024-11-15T00:00:00.000Z",
+      "endDate": "2024-12-20T23:59:59.000Z",
+      "totalPrizePool": 100000,
+      "totalProjects": 5,
+      "totalStaked": 298100,
+      "thumbnail": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=800&q=80",
+      "organizer": "Monad Foundation",
+      "categories": ["DeFi", "NFT", "Infrastructure", "Security"],
+      "projectIds": ["1", "2", "4", "5", "6"]
+    },
+    "2": {
+      "id": "2",
+      "name": "Monad Blitz Seoul",
+      "description": "Experience the cutting edge of blockchain innovation in Seoul. Build high-performance applications leveraging Monad's revolutionary architecture.",
+      "tagline": "Innovation meets speed in Seoul",
+      "status": "active",
+      "startDate": "2024-11-20T00:00:00.000Z",
+      "endDate": "2024-12-25T23:59:59.000Z",
+      "totalPrizePool": 100000,
+      "totalProjects": 1,
+      "totalStaked": 18400,
+      "thumbnail": "https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800&q=80",
+      "organizer": "Monad Foundation",
+      "categories": ["NFT", "Gaming", "Social", "DeFi"],
+      "projectIds": ["3"]
+    },
+    "3": {
+      "id": "3",
+      "name": "Monad Blitz Lucknow",
+      "description": "Join India's blockchain revolution in Lucknow. Build scalable decentralized applications that push the boundaries of what's possible on Monad.",
+      "tagline": "Scaling innovation in India",
+      "status": "ended",
+      "startDate": "2024-09-01T00:00:00.000Z",
+      "endDate": "2024-10-15T23:59:59.000Z",
+      "totalPrizePool": 100000,
+      "totalProjects": 2,
+      "totalStaked": 67300,
+      "thumbnail": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80",
+      "organizer": "Monad Foundation",
+      "categories": ["DeFi", "Infrastructure", "Gaming", "Social"],
+      "projectIds": ["7", "8"]
+    },
+    "4": {
+      "id": "4",
+      "name": "Monad Blitz Hyderabad",
+      "description": "Unleash your creativity in Hyderabad. Build next-generation blockchain solutions with Monad's parallel execution and instant finality.",
+      "tagline": "Parallel execution, infinite possibilities",
+      "status": "ended",
+      "startDate": "2024-08-01T00:00:00.000Z",
+      "endDate": "2024-09-15T23:59:59.000Z",
+      "totalPrizePool": 100000,
+      "totalProjects": 3,
+      "totalStaked": 142800,
+      "thumbnail": "https://images.unsplash.com/photo-1696941515998-d83f24967aca?w=800&q=80",
+      "organizer": "Monad Foundation",
+      "categories": ["DeFi", "Infrastructure", "AI/ML", "NFT"],
+      "projectIds": ["9", "10", "11"]
+    },
+    "5": {
+      "id": "5",
+      "name": "Monad Blitz Bangalore",
+      "description": "Join the tech capital of India for an exciting blockchain hackathon. Build innovative solutions on Monad with India's brightest developers.",
+      "tagline": "Where tech meets blockchain",
+      "status": "upcoming",
+      "startDate": "2025-01-15T00:00:00.000Z",
+      "endDate": "2025-02-15T23:59:59.000Z",
+      "totalPrizePool": 100000,
+      "totalProjects": 0,
+      "totalStaked": 0,
+      "thumbnail": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=800&q=80",
+      "organizer": "Monad Foundation",
+      "categories": ["DeFi", "Infrastructure", "Gaming", "AI/ML"],
+      "projectIds": []
+    }
+  },
+  "projects": {
+    "1": {
+      "id": "1",
+      "teamName": "ChainForge Labs",
+      "projectName": "DecentraChat",
+      "tagline": "Privacy-first messaging for Web3",
+      "description": "End-to-end encrypted messaging platform built on Monad with zero-knowledge proofs for maximum privacy. Features include disappearing messages, encrypted file sharing, and on-chain identity verification.",
+      "category": "DeFi",
+      "techStack": [
+        "React",
+        "Solidity",
+        "ZK-SNARKs",
+        "IPFS",
+        "TypeScript",
+        "Hardhat"
+      ],
+      "githubUrl": "https://github.com",
+      "demoUrl": "https://demo.com",
+      "totalStaked": 45600,
+      "thumbnail": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80",
+      "teamMembers": ["Alice Chen", "Bob Smith", "Carol Davis"],
+      "projectOwnerAddress": "0x0000000000000000000000000000000000000000",
+      "outcomes": {
+        "winPrize": { "odds": 2.3, "staked": 25000 },
+        "finalist": { "odds": 1.5, "staked": 15600 },
+        "vcMeeting": { "odds": 1.8, "staked": 5000 }
+      }
+    },
+    "2": {
+      "id": "2",
+      "teamName": "GasOptimizers",
+      "projectName": "SwapLite",
+      "tagline": "Lightning-fast DEX with AI routing",
+      "description": "Sub-millisecond decentralized exchange leveraging Monad's performance with predictive liquidity routing powered by machine learning algorithms.",
+      "category": "DeFi",
+      "techStack": [
+        "TypeScript",
+        "Rust",
+        "Python",
+        "TensorFlow",
+        "Solidity",
+        "React"
+      ],
+      "githubUrl": "https://github.com",
+      "totalStaked": 72100,
+      "thumbnail": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&q=80",
+      "teamMembers": ["David Lee", "Emma Wilson", "Frank Zhang", "Grace Kim"],
+      "projectOwnerAddress": "0x0000000000000000000000000000000000000000",
+      "outcomes": {
+        "winPrize": { "odds": 1.9, "staked": 42000 },
+        "finalist": { "odds": 1.3, "staked": 22100 },
+        "vcMeeting": { "odds": 2.1, "staked": 8000 }
+      }
+    },
+    "3": {
+      "id": "3",
+      "teamName": "MonadMakers",
+      "projectName": "NFTicket",
+      "tagline": "Next-gen event ticketing on-chain",
+      "description": "Dynamic NFT ticketing system with on-chain verification, automated resale protection, and royalty distribution for event organizers.",
+      "category": "NFT",
+      "techStack": ["Next.js", "Solidity", "TheGraph", "Vercel"],
+      "totalStaked": 18400,
+      "thumbnail": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80",
+      "teamMembers": ["Hannah Park", "Ian Foster"],
+      "projectOwnerAddress": "0x0000000000000000000000000000000000000000",
+      "outcomes": {
+        "winPrize": { "odds": 3.2, "staked": 8000 },
+        "finalist": { "odds": 2.1, "staked": 7200 },
+        "vcMeeting": { "odds": 2.6, "staked": 3200 }
+      }
+    },
+    "4": {
+      "id": "4",
+      "teamName": "BlockBuilders",
+      "projectName": "ChainAnalytics Pro",
+      "tagline": "Real-time blockchain intelligence",
+      "description": "Advanced on-chain analytics dashboard with AI-powered insights, predictive modeling, and institutional-grade reporting tools.",
+      "category": "Infrastructure",
+      "techStack": ["Vue.js", "PostgreSQL", "Python", "Docker"],
+      "githubUrl": "https://github.com",
+      "demoUrl": "https://demo.com",
+      "totalStaked": 34300,
+      "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+      "teamMembers": ["Jack Brown", "Kate Miller", "Leo Martinez"],
+      "projectOwnerAddress": "0x0000000000000000000000000000000000000000",
+      "outcomes": {
+        "winPrize": { "odds": 2.8, "staked": 16000 },
+        "finalist": { "odds": 1.7, "staked": 12300 },
+        "vcMeeting": { "odds": 3.0, "staked": 6000 }
+      }
+    },
+    "5": {
+      "id": "5",
+      "teamName": "SmartContractors",
+      "projectName": "AutoAudit AI",
+      "tagline": "Instant smart contract security",
+      "description": "AI-powered smart contract auditing platform with instant vulnerability detection, automated fix suggestions, and comprehensive security reports.",
+      "category": "Security",
+      "techStack": ["React", "Python", "OpenAI", "Solidity"],
+      "totalStaked": 89800,
+      "thumbnail": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&q=80",
+      "teamMembers": ["Mike Thompson", "Nina Patel", "Oscar Rodriguez"],
+      "projectOwnerAddress": "0x0000000000000000000000000000000000000000",
+      "outcomes": {
+        "winPrize": { "odds": 1.5, "staked": 55000 },
+        "finalist": { "odds": 1.2, "staked": 28800 },
+        "vcMeeting": { "odds": 1.7, "staked": 6000 }
+      }
+    },
+    "6": {
+      "id": "6",
+      "teamName": "DeFi Innovations",
+      "projectName": "YieldVault",
+      "tagline": "Automated yield optimization",
+      "description": "Smart yield aggregator that automatically moves funds between protocols to maximize returns while minimizing gas costs and risks.",
+      "category": "DeFi",
+      "techStack": ["Solidity", "Hardhat", "React", "Ethers.js"],
+      "totalStaked": 56200,
+      "thumbnail": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=800&q=80",
+      "teamMembers": ["Paul Green", "Quinn Adams", "Rachel White"],
+      "projectOwnerAddress": "0x0000000000000000000000000000000000000000",
+      "outcomes": {
+        "winPrize": { "odds": 2.4, "staked": 28000 },
+        "finalist": { "odds": 1.6, "staked": 18200 },
+        "vcMeeting": { "odds": 2.2, "staked": 10000 }
+      }
+    },
+    "7": {
+      "id": "7",
+      "teamName": "Lucknow Devs",
+      "projectName": "PayChain",
+      "tagline": "Instant cross-border payments",
+      "description": "Lightning-fast international payment protocol with minimal fees and instant settlement. Built for the next billion users with seamless UX.",
+      "category": "DeFi",
+      "techStack": ["Solidity", "Next.js", "Node.js", "WebSockets"],
+      "githubUrl": "https://github.com",
+      "totalStaked": 42300,
+      "thumbnail": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
+      "teamMembers": ["Raj Kumar", "Priya Singh", "Amit Sharma"],
+      "projectOwnerAddress": "0xd81393327f210624e2e8db10423ff280212e3e13",
+      "outcomes": {
+        "winPrize": { "odds": 2.1, "staked": 22000 },
+        "finalist": { "odds": 1.4, "staked": 15300 },
+        "vcMeeting": { "odds": 1.9, "staked": 5000 }
+      }
+    },
+    "8": {
+      "id": "8",
+      "teamName": "WebThree Warriors",
+      "projectName": "GameFi Arena",
+      "tagline": "Play-to-earn gaming ecosystem",
+      "description": "Competitive gaming platform with tokenized rewards and NFT achievements. Players earn real value while having fun in skill-based games.",
+      "category": "Gaming",
+      "techStack": ["Unity", "Solidity", "React", "IPFS"],
+      "demoUrl": "https://demo.com",
+      "totalStaked": 25000,
+      "thumbnail": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&q=80",
+      "teamMembers": ["Vikram Reddy", "Sneha Desai"],
+      "projectOwnerAddress": "0x0000000000000000000000000000000000000000",
+      "outcomes": {
+        "winPrize": { "odds": 3.5, "staked": 10000 },
+        "finalist": { "odds": 2.0, "staked": 10000 },
+        "vcMeeting": { "odds": 2.5, "staked": 5000 }
+      }
+    },
+    "9": {
+      "id": "9",
+      "teamName": "Hyderabad Hackers",
+      "projectName": "LendProtocol",
+      "tagline": "Decentralized lending reimagined",
+      "description": "Next-generation lending protocol with dynamic interest rates and instant liquidity. Optimized for Monad's parallel execution for maximum efficiency.",
+      "category": "DeFi",
+      "techStack": ["Solidity", "TypeScript", "React", "Hardhat"],
+      "githubUrl": "https://github.com",
+      "demoUrl": "https://demo.com",
+      "totalStaked": 68900,
+      "thumbnail": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&q=80",
+      "teamMembers": [
+        "Aditya Verma",
+        "Kavya Nair",
+        "Rohan Gupta",
+        "Ananya Das"
+      ],
+      "projectOwnerAddress": "0x0000000000000000000000000000000000000000",
+      "outcomes": {
+        "winPrize": { "odds": 1.7, "staked": 40000 },
+        "finalist": { "odds": 1.3, "staked": 20900 },
+        "vcMeeting": { "odds": 1.6, "staked": 8000 }
+      }
+    },
+    "10": {
+      "id": "10",
+      "teamName": "AI Blockchain Labs",
+      "projectName": "SmartPredict",
+      "tagline": "AI-powered market predictions",
+      "description": "Advanced machine learning model for predicting DeFi market movements with unprecedented accuracy. Real-time analysis of on-chain data.",
+      "category": "AI/ML",
+      "techStack": ["Python", "TensorFlow", "Solidity", "FastAPI"],
+      "githubUrl": "https://github.com",
+      "totalStaked": 38600,
+      "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+      "teamMembers": ["Sanjay Mehta", "Divya Iyer", "Karthik Raman"],
+      "projectOwnerAddress": "0x0000000000000000000000000000000000000000",
+      "outcomes": {
+        "winPrize": { "odds": 2.6, "staked": 18000 },
+        "finalist": { "odds": 1.8, "staked": 14600 },
+        "vcMeeting": { "odds": 2.3, "staked": 6000 }
+      }
+    },
+    "11": {
+      "id": "11",
+      "teamName": "Chain Builders",
+      "projectName": "DataVault",
+      "tagline": "Decentralized data storage",
+      "description": "Secure, distributed storage solution with end-to-end encryption and instant retrieval. Built on Monad for maximum performance and reliability.",
+      "category": "Infrastructure",
+      "techStack": ["Rust", "Solidity", "IPFS", "React"],
+      "demoUrl": "https://demo.com",
+      "totalStaked": 35300,
+      "thumbnail": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
+      "teamMembers": ["Arjun Pillai", "Meera Krishnan"],
+      "projectOwnerAddress": "0x0000000000000000000000000000000000000000",
+      "outcomes": {
+        "winPrize": { "odds": 2.9, "staked": 15000 },
+        "finalist": { "odds": 1.9, "staked": 14300 },
+        "vcMeeting": { "odds": 2.7, "staked": 6000 }
+      }
+    }
+  }
+}

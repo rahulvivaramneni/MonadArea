@@ -1,33 +1,94 @@
-# Monad Blitz Bangalore Submission Process
+# MonadArena - Next.js
 
-1. Visit the `monad-blitz-bangalore` repo (link here) and fork it.
+A production-ready Next.js application for hackathon prediction and staking platform.
 
-![image](https://github.com/user-attachments/assets/ab46b2ea-ee0f-4237-87ef-c33bb1a94749)
+## Features
 
-2. Give it your project name, a one-liner description, make sure you are forking `main` branch and click `Create Fork`.
+- ⚡ **Next.js 15** with App Router
+- 🎨 **Tailwind CSS v4** for styling
+- 📱 **Responsive Design** with mobile-first approach
+- 🔥 **TypeScript** for type safety
+- 🎯 **SEO Optimized** with metadata and Open Graph tags
+- 🌙 **Dark Mode** support with next-themes
+- 🚀 **Production Ready** with optimized builds
 
-![image](https://github.com/user-attachments/assets/ffdebab7-c340-4e14-bd3c-36905f1016a3)
+## Getting Started
 
-3. In your fork you can make all the changes you want, add code of your project, create branches, add information to `README.md`, you can change anything and everything.
+### Prerequisites
 
-4. Once you are done with your project and ready for submission, create a pull request.
+- Node.js 18+ installed
+- npm, yarn, or pnpm
 
-![image](https://github.com/user-attachments/assets/58aa7140-55db-49db-9361-332449dbe116)
+### Installation
 
-![image](https://github.com/user-attachments/assets/5c8c61b1-23fd-4177-b06e-e8fca3a61ad4)
+1. Install dependencies:
 
-5. Make sure you are create a pull request to the right repo `monad-developers/monad-blitz-bangalore`.
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
 
-![image](https://github.com/user-attachments/assets/41774ebc-d64c-43de-b3be-7e46d21bcaba)
+2. Run the development server:
 
-6. Make sure you see “Able to merge”, when creating a pull request then you can click `Create Pull Request`.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-![image](https://github.com/user-attachments/assets/b52f5e6f-9091-43af-9025-f2c61a7d1205)
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-7. Give the pull request your project name and a description of the project (describe as much as you can about your project you can even add video demo links) then click `Create pull request`.
+## Project Structure
 
-![image](https://github.com/user-attachments/assets/9a3cc30a-498f-4d83-9060-adb11f88eff6)
+```
+├── src/
+│   ├── app/              # Next.js App Router
+│   │   ├── layout.tsx    # Root layout with metadata
+│   │   ├── page.tsx      # Home page
+│   │   └── globals.css   # Global styles
+│   ├── components/        # React components
+│   │   ├── ui/           # UI component library
+│   │   └── ...           # Feature components
+│   ├── types/            # TypeScript type definitions
+│   └── styles/          # Additional styles
+├── public/               # Static assets
+└── ...config files
+```
 
-8. Finally verify if you created your pull request correctly by checking the repo on which the pull request is created and the source and destination branch of the pull request!
+## Build for Production
 
-![image](https://github.com/user-attachments/assets/b16befcd-2c29-4520-aa70-29883306e85c)
+```bash
+npm run build
+npm start
+```
+
+## Key Technologies
+
+- **Next.js 15** - React framework with App Router
+- **TypeScript** - Type-safe development
+- **Tailwind CSS v4** - Utility-first CSS framework
+- **Radix UI** - Accessible component primitives
+- **Lucide React** - Icon library
+- **Recharts** - Chart library
+- **next-themes** - Theme management
+
+## Migration Notes
+
+This project was migrated from Vite + React to Next.js. Key changes:
+
+- ✅ Converted to App Router structure
+- ✅ Updated all imports to remove version tags
+- ✅ Migrated images to `next/image`
+- ✅ Added "use client" directives where needed
+- ✅ Updated styling with `next/font`
+- ✅ Fixed TypeScript types for charts and components
+- ✅ Added SEO metadata and favicon
+
+## License
+
+Private project
